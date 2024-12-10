@@ -1,2 +1,7 @@
 grep -i 'quijote' el_quijote.txt | wc -w
 grep -v 'quijote' el_quijote.txt | wc -w
+<<<<<<< HEAD
+=======
+grep -o -i "quijote" * | wc -l
+grep -i "quijote" * | cut -d: -f1 | sort -u
+>>>>>>> quijote
