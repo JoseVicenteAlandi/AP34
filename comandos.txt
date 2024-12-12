@@ -10,4 +10,8 @@ sed -i 's/Panza/barriga/g' el_quijote.txt
 sed -i 's/Panza/barriga/g' el_quijote.txt
 cut -c 1-4 el_quijote.txt
 cut -c 1-4000 el_quijote.txt
+<<<<<<< HEAD
+>>>>>>> quijote
+=======
+sed -n '14,25p' el_quijote.txt
 >>>>>>> quijote
