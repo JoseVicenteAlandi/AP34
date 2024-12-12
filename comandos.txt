@@ -3,5 +3,11 @@ grep -v 'quijote' el_quijote.txt | wc -w
 grep -o -i "quijote" * | wc -l
 grep -i "quijote" * | cut -d: -f1 | sort -u
 sed 's/Panza/barriga/g' el_quijote.txt
+<<<<<<< HEAD
 sed 's/Panza/barriga/g' el_quijote.txt
 sed -i 's/Panza/barriga/g' el_quijote.txt
+=======
+sed -i 's/Panza/barriga/g' el_quijote.txt
+cut -c 1-4 el_quijote.txt
+cut -c 1-4000 el_quijote.txt
+>>>>>>> quijote
